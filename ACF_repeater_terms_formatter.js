@@ -21,13 +21,10 @@ formatTerms: function(terms, starts, ends1, ends2, target) {
     terms[target] = {}; //Create new Object
 
     for (var i in terms) {
-        var regex1 = "/^"+starts+".*"+ends1+"$/",
-            regex2 = "/^"+starts+".*"+ends2+"$/",
-            key;
+        var key;
 
         if (i.match("^"+starts+".*"+ends1+"$")) {
             key = terms[i][0];
-            
             terms[target][key] = "";
         }
         if (i.match("^"+starts+".*"+ends2+"$")) {
