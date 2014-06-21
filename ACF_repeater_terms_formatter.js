@@ -9,7 +9,7 @@
 // starts - array's name starting string
 // ends1  - array's name ending string - later this becomes the property name
 // ends2  - array's name ending string - later this becomes the property value
-// target - name of the new Object containt theese keys & values
+// target - name of the new Object containing theese keys & values
 
 formatTerms: function(terms, starts, ends1, ends2, target) {
     var terms,
